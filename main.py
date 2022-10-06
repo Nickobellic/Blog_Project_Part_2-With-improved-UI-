@@ -4,8 +4,8 @@ import smtplib
 
 app = Flask(__name__)
 API_ENDPOINT = "https://api.npoint.io/c790b4d5cab58020d391"
-my_email = "avrahulkanna17@gmail.com"
-passw = "avcqikybvlvjahyw"
+my_email = "<emailid>"
+passw = "<password>"
 
 smtp = smtplib.SMTP("smtp.gmail.com")
 smtp.starttls()
